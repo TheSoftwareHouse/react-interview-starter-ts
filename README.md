@@ -2,11 +2,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Quick Start
 
-To start the development: 
+To start the development:
+
 ```
 mkdir new-project
 cd new-project/
-git clone git@github.com:TheSoftwareHouse/react-interview-starter-js.git .
+git clone git@github.com:TheSoftwareHouse/react-interview-starter-ts.git .
 rm -r .git
 npm install
 cd e2e
@@ -15,6 +16,7 @@ cd ..
 cp .env.dist .env
 cp .env.e2e.dist ./e2e/.env
 ```
+
 where `new-project` is your desired folder.
 
 ## E2E
