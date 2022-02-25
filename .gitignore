@@ -15,7 +15,7 @@ node_modules
 .DS_Store
 .env.babelsheet
 .env
-
+.idea
 
 npm-debug.log*
 yarn-debug.log*
