@@ -6,7 +6,7 @@ import { AppRoute } from 'routing/AppRoute.enum';
 export const Login = () => {
   return (
     <>
-      <Link to={AppRoute.home}>Products page</Link>
+      <Link to={AppRoute.Home}>Products page</Link>
       <h2>Login</h2>
       <form>
         <div>
