@@ -7,7 +7,7 @@ export const Products = () => {
   return (
     <>
       <h2>Products page</h2>
-      <Link to={AppRoute.login}> Login </Link>
+      <Link to={AppRoute.Login}> Login </Link>
     </>
   );
 };
