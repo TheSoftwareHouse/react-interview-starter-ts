@@ -1,7 +1,4 @@
 import { createRoot } from "react-dom/client";
-
-import { AppProviders } from "providers/AppProviders";
-
 import { App } from "./app/App";
 import * as serviceWorker from "./serviceWorker";
 
