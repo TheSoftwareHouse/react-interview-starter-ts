@@ -1,23 +1,19 @@
-import { AppRoute } from '../../../src/routing/AppRoute.enum';
+import { AppRoute } from "../../../src/routing/AppRoute.enum";
 
 class Navigation {
-  goToHome(): void {
-    cy.get(`a[href*="${AppRoute.Home}"]`)
-      .first()
-      .click();
+  goToHome() {
+    cy.get(`a[href*="${AppRoute.Home}"]`).first().click();
   }
 
-  goToLogin(): void {
-    cy.get(`a[href*="${AppRoute.Login}"]`)
-      .first()
-      .click();
+  goToLogin() {
+    cy.get(`a[href*="${AppRoute.Login}"]`).first().click();
   }
 
   get homeLink(): string {
     return `${Cypress.env().baseUrl}${AppRoute.Home}`;
   }
 
-  get loginLink(): string {
+  get loginLink() {
     return `${Cypress.env().baseUrl}${AppRoute.Login}`;
   }
 }
