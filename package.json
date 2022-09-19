@@ -52,7 +52,6 @@
   "devDependencies": {
     "@types/testing-library__jest-dom": "5.14.1",
     "cross-env": "7.0.3",
-    "@types/testing-library__jest-dom": "5.14.1",
     "http-server": "14.0.0",
     "wait-on": "6.0.0"
   }
